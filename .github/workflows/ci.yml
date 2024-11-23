@@ -20,7 +20,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm install  # If using npm
+        npm install --legacy-peer-deps
+  # If using npm
         # yarn install  # If using yarn
 
     - name: Build project
