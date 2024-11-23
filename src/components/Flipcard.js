@@ -23,15 +23,30 @@ function Flipcard() {
                       alt=""
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3><Text>HOSTEL MANAGEMENT SYSTEM</Text></h3>
+                     <br/>
+                     <br/>
+                    <h3><Text style={{ fontSize: '18px', fontWeight: 'bold', color: '#FFFFFF' }}>VINTAGE VEHICLES AUCTION PLATFORM</Text></h3>
                   </div>
-                  <div class="back" style={{ background: '#9381FF ' }}>
-                    <h5> <Text>HOSTEL MANAGEMENT SYSTEM</Text></h5>
-                    <p><Text>This is a Web Application for online Hostel Room Booking System.This is done to minimize the work of people going in person and booking the hostel room This project reduces the time of the individuals spent on offline to book their rooms at their colleges and universities
-                    </Text>
-                    </p>
-                    <p> <Text> Users can book the rooms and booking details are sent to admins immediately after user books. Users can send emails to admin seeking their queries to change the room. Users can check the availability of the booked rooms and choose their room accordingly.
-</Text>
+                  <div className="back" style={{ background: '#9381FF' }}>
+                <h5>
+                  <Text style={{ fontSize: '18px', fontWeight: 'bold', color: '#FFFFFF' }}>
+                    VINTAGE VEHICLES AUCTION PLATFORM
+                  </Text>
+                </h5>
+                <p>
+                  <Text style={{ fontSize: '16px' }}>
+                    • Built a scalable vintage car auction platform on Django, integrating AWS services for secure image storage and real-time bidding.
+                  </Text>
+                </p>
+                <p>
+                  <Text style={{ fontSize: '16px' }}>
+                    • Deployed with AWS Elastic Beanstalk, and automated CI/CD via GitHub Actions.
+                  </Text>
+                </p>
+                <p>
+                  <Text style={{ fontSize: '16px'}}>
+                    • Tech Stack: Django, AWS (Cloud9, S3, Elastic Beanstalk, DynamoDB), GitHub Actions, Git/GitHub
+                  </Text>
                     </p>
                     <a href="https://github.com/Suryaa2004/Hostel-Room-Booking"><button class='btn btn-primary'>Know more</button></a>
                   </div>
@@ -48,20 +63,23 @@ function Flipcard() {
                       alt=""
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3> <Text>SWOT ANALYSIS PLATFORM</Text></h3>
+                    <br/>
+                    <br/>
+                    <h3> <Text style={{ fontSize: '18px', fontWeight: 'bold', color: '#FFFFFF' }}>PERSONAL FINANCE TRACKER</Text></h3>
                   </div>
                   <div class="back" style={{ background: '#c770f0' }}>
-                    <h5>SWOT ANALYSIS PLATFORM</h5>
-                    <p>
-                    The platform encompasses a secured login system, a
-user-friendly home page, and an interactive SWOT analysis module. User authentication and company
-details are securely stored in databases, ensuring data confidentiality. 
-
+                  <h5>
+                  <Text style={{ fontSize: '18px', fontWeight: 'bold', color: '#FFFFFF' }}>
+                    PERSONAL FINANCE TRACKER
+                  </Text>
+                </h5>
+                    <p><Text style={{ fontSize: '16px' }}>•	Developed a finance tracker in Django with CRUD functionality to manage income, expenses, and budgeting, displaying financial insights as charts and graphs using Matplotlib. </Text>
                     </p>
-                    <p>
-                    The SWOT analysis process involves a series of tailored questions aimed at extracting relevant
-information from users. Based on their responses, the platform generates a detailed report that quantifies
-the company's strengths, weaknesses, opportunities, and threats as percentages.
+                    <p> <Text style={{ fontSize: '16px' }}>•	 Integrated user authentication, and utilized Pylint for static code analysis and Bandit for security checks. 
+                  </Text>
+                  </p>
+                    <p> <Text style={{ fontSize: '16px' }}>•	 Tech Stack: Django, AWS CodePipeline, JavaScript, pylint, bandit, Git/GitHub
+                  </Text>
                     </p>
                     <a href="https://github.com/Suryaa2004/swot-analysis"><button class='btn btn-primary'>Know more</button></a>
                   </div>
@@ -78,15 +96,22 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                       alt="Avatar"
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3><Text>PERSONAL PORTFOLIO</Text></h3>
+                    <br/>
+                    <h3><Text style={{ fontSize: '18px', fontWeight: 'bold', color: '#FFFFFF' }}>BLOCKCHAIN-BASED SMART CONTRACT DEVELOPMENT AND TOKEN DEPLOYMENT</Text></h3>
                   </div>
                   <div class="back" style={{ background: '#9381FF' }}>
-                    <h5>PERSONAL PORTFOLIO</h5>
-                    <p>
-                    The site features an 'About Me' section offering a succinct introduction to my background, values, and aspirations. In addition, it encompasses detailed segments on my education, highlighting academic achievements, skills section showcasing my proficiency in relevant technologies, a comprehensive list of publications, and certifications earned.
+                  <h5>
+                  <Text style={{ fontSize: '18px', fontWeight: 'bold', color: '#FFFFFF' }}>
+                  BLOCKCHAIN-BASED SMART CONTRACT DEVELOPMENT AND TOKEN DEPLOYMENT
+                  </Text>
+                </h5>
+                    <p><Text style={{ fontSize: '16px' }}>•	Developed and deployed ERC-20 and ERC-721 smart contracts using Remix, with ETH transaction management via MetaMask.  </Text>
                     </p>
-                    <p>
-                    This portfolio serves as a dynamic snapshot of my professional journey, providing visitors with a holistic view of my skills, accomplishments, and commitment to continuous learning
+                    <p> <Text style={{ fontSize: '16px' }}>•	 Tested functionality in a local Ethereum environment with Ganache, and integrated decentralized storage through local IPFS for token deployment. 
+                  </Text>
+                  </p>
+                    <p> <Text style={{ fontSize: '16px' }}>•	 Tech Stack: Solidity, Remix, MetaMask, Ganache, IPFS, Ethereum
+                  </Text>
                     </p>
                     <a href="https://github.com/Suryaa2004/Portfolio"><button class='btn btn-primary'>Know more</button></a>
                   </div>
@@ -121,6 +146,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                 </div>
               </div>
             </div>
+            
             <div class="col-sm-6">
               <div class="flip-container">
                 <div class="flipper">
@@ -147,9 +173,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                 </div>
               </div>
             </div>
-
           </div>
-          
         </div>
       
       </section>

@@ -12,6 +12,16 @@ import projImg7 from "../assets/img/b_network.png";
 import projImg8 from "../assets/img/b_data.png";
 import projImg9 from "../assets/img/b_ibm.png";
 import projImg10 from "../assets/img/b_ai.png";
+import projImg11 from "../assets/img/c_coursera.png";
+import projImg12 from "../assets/img/c_aws.png";
+import projImg13 from "../assets/img/c_linux.png";
+import projImg14 from "../assets/img/c_go.png";
+import projImg15 from "../assets/img/c_sql.png";
+import projImg16 from "../assets/img/c_ps.png";
+import projImg17 from "../assets/img/c_python.png";
+import projImg18 from "../assets/img/c_js.png";
+import projImg19 from "../assets/img/c_sql1.png";
+import projImg20 from "../assets/img/c_cn.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { Link } from "react-router-dom"; 
@@ -62,41 +72,66 @@ export const Projects = () => {
 
   const certifications = [
     {
-      title: 'Certification Title 1',
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: 'https://www.linkedin.com/in/priya-s-b15414246',
+      title: 'Coursera',
+      description: "Google Cloud Fundamentals: Core Infrastructure",
+      imgUrl: projImg11,
+      url1: 'https://drive.google.com/file/d/1Y0flUV1UMg33Q_oPMZ3TRMaWP0Kws2Le/view?usp=sharing',
     },
     {
-      title: 'Certification Title 2',
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: 'https://www.linkedin.com/in/priya-s-b15414246',
+      title: 'AWS',
+      description: "Cloud Practitioner Essentials",
+      imgUrl: projImg12,
+      url1: 'https://drive.google.com/file/d/1kfWbrtc4PhBfV6R2k2vshP1Jh7dWl3X1/view?usp=sharing',
     },
     {
-      title: 'Certification Title 3',
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: 'https://www.linkedin.com/in/priya-s-b15414246',
+      title: 'Great Learning',
+      description: "Linux Tutorial",
+      imgUrl: projImg13,
+      url1: 'https://drive.google.com/file/d/1-nXQxWybFxBTlnlG6pzAFWTB7n9snal3/view?usp=sharing',
     },
     {
-      title: 'Certification Title 4',
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: 'https://www.linkedin.com/in/priya-s-b15414246',
+      title: 'HackerRank',
+      description: "Go basic",
+      imgUrl: projImg14,
+      url: 'https://drive.google.com/file/d/1-n3QMusyH3aqODrFB2gPrDpdzInmEA0C/view?usp=sharing',
     },
     {
-      title: 'Certification Title 5',
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: 'https://www.linkedin.com/in/priya-s-b15414246',
+      title: 'Winsoft',
+      description: "SQL Server",
+      imgUrl: projImg15,
+      url1: 'https://drive.google.com/file/d/1-zWOM1OapULZIrn9Ww_5tf6MIARgSN5D/view?usp=drive_link',
     },
     {
-      title: 'Certification Title 6',
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: 'https://www.linkedin.com/in/priya-s-b15414246',
+      title: 'HackerRank',
+      description: "Problem Solving Basic",
+      imgUrl: projImg16,
+      url1: 'https://drive.google.com/file/d/1-yOzVl_qW4IMc1CBQsj-WKOLau5Pb7Qj/view?usp=sharing',
     },
+    {
+      title: 'HackerRank',
+      description: "Python Basic",
+      imgUrl: projImg17,
+      url1: 'https://drive.google.com/file/d/1-sV5I4A0Qu3ljRz_oKt1h9yKXRX28YGy/view?usp=sharing',
+    },
+    {
+      title: 'HackerRank',
+      description: "Javascript Basic",
+      imgUrl: projImg18,
+      url1: 'https://drive.google.com/file/d/1-jMaJFvI3OJfzg5NvLkww5Z4IULf7b5k/view',
+    },
+    {
+      title: 'HackerRank',
+      description: "SQL Basic",
+      imgUrl: projImg19,
+      url1: 'https://drive.google.com/file/d/1-h4q6NfSCOGwXjkkiDX8Df3JxNHvILqk/view',
+    },
+    {
+      title: 'Great Learning',
+      description: "Basics of Computer Networking",
+      imgUrl: projImg20,
+      url1: 'https://drive.google.com/file/d/1A5Hby8NXArrLdNrstYg1gPH-xhkmddVo/view',
+    },
+    
   ];
 
   const internships = [

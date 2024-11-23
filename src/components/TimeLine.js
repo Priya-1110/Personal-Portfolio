@@ -13,33 +13,10 @@ return(
     <br></br>
     <h2 className='education'><Text>Education</Text></h2>
    <Timeline className="time" lineColor={'#c770f0'}>
-  <TimelineItem
-    key="001"
-    dateText="2018"
-    dateInnerStyle={{ background: 'white', color: 'black' }}
-    bodyContainerStyle={{
-      className:'content',
-      background: 'white',
-      padding: '20px',
-      borderRadius: '8px',
-      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
-    }}
-    style={{ color: '#B8B8FF' }}
-  >
-    <Text>
-    <h3><i>Class X</i></h3>
-    <h4>Sri Ahobila Math Oriental Higher Secondary School</h4>
-    <br></br>
-    <p>
-    Scored 95.2% </p>
 
-    
-    </Text>
-    
-  </TimelineItem>
   <TimelineItem
     key="002"
-    dateText="2020"
+    dateText="2024 - 2025"
     dateInnerStyle={{ background: '#B8B8FF', color: 'black' }}
     bodyContainerStyle={{
       className:'content',
@@ -49,20 +26,19 @@ return(
       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
     }}
   >
-    <Text>
-    <h3 style={{ color: 'black' }}><i>Class XII</i></h3>
-    <h4 style={{ color: 'black' }}>Vidyodaya Matriculation Higher Secondary Academy</h4>
+   <Text>
+    <h3><i>Master's Degree</i></h3>
+    <h4>National College of Ireland, Dublin</h4>
     <br></br>
-    <p>
-    Bio-Math</p>
-    <p>Scored 77.8%</p>
-    
+    <p>MSC in CLoud Computing</p>
+    <p></p>
+      
     </Text>
     
   </TimelineItem>
   <TimelineItem
     key="003"
-    dateText="2024"
+    dateText="2020 - 2024"
     dateInnerStyle={{ background: 'white', color: 'black' }}
     bodyContainerStyle={{
       className:'content',
@@ -74,12 +50,12 @@ return(
     style={{ color: '#B8B8FF' }}
   >
     <Text>
-    <h3><i>Under Graduation</i></h3>
-    <h4>Easwari Engineering College</h4>
+    <h3><i>Bachelor's Degree</i></h3>
+    <h4>Easwari Engineering College, Chennai</h4>
     <br></br>
     <p>
-    Completed Bachelor of Engineering (BE) in Electronics and Communication</p>
-    <p>Scored 92.2%</p>
+    B.E(Electronics and Communication Engineering) </p>
+    <p>CGPA- 9.23 | 92.3% | 1:1</p>
       
     </Text>
     

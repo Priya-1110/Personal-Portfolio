@@ -61,7 +61,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hello there!👋  I'm Priya`} <span className="txt-rotate" dataPeriod="5000" data-rotate='[ "Cloud Aficionado", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a final year student pursuing Electronics and Communication Engineering at Easwari Engineering College. With a keen interest in cloud computing and , I'm on a mission to become a skilled cloud professional. Beyond academics, I thrive on challenges and am always eager to learn and grow. I'm excited to connect with fellow enthusiasts and explore the endless possibilities in the world of cloud computing.</p>
+                  <p>Cloud Computing and Web Development enthusiast with hands-on experience in building scalable, real-time applications using Django, ReactJS, and AWS. Proven ability to enhance user experiences and optimize deployment processes through effective collaboration and rapid learning in dynamic environments.</p>
                   <button>
       Download CV
       <ArrowDownCircle size={25} onClick={handleDownload} />
