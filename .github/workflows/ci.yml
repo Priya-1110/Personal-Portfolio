@@ -10,28 +10,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the latest code from the repository
       - name: Checkout code
         uses: actions/checkout@v3
-      
+
+      # Set up Node.js with the specified version
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'  # Adjust the Node.js version as needed
-      
+
+      # Install dependencies using npm
       - name: Install dependencies
         run: |
           npm install --legacy-peer-deps
-      
+
+      # Build the project (skip warnings)
       - name: Build project
         run: |
           CI=false npm run build  # Ignore warnings during the build
-      
+
+      # Install Vercel CLI globally
       - name: Install Vercel CLI
         run: npm install -g vercel  # Install Vercel CLI globally
-      
+
+      # Deploy to Vercel
       - name: Deploy to Vercel
-        env:  # Use secrets securely
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}  # Use secrets securely
         run: |
-          echo "${VERCEL_TOKEN}" | vercel login --token
-          vercel --prod  # Deploy your app to production
+          vercel link --token $VERCEL_TOKEN  # Link the project to Vercel
+          vercel --prod --token $VERCEL_TOKEN  # Deploy to production
